@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+class Subtraction
+{ public:
+      int num1,num2,res;
+      public:
+      void input()
+      {
+          cout<<"Enter The Number:";
+          cin>>num1>>num2;
+      }
+      void calculator() {
+        res = num1-num2;
+      }
+      void output() {
+        cout<< "The sub is "<<num1<<" and "<<num2<<" is "<<res<< endl;
+      }
+};
+      int main(){
+        Subtraction sub;
+        sub.input();
+        sub.calculator();
+        sub.output();
+        return 0;
+      }
