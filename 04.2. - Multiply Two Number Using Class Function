@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+class Multiplication
+{ public:
+      int num1,num2,sum;
+      public:
+      void input()
+      {
+          cout<<"Enter The Number:";
+          cin>>num1>>num2;
+      }
+      void calculator() {
+        sum = num1*num2;
+      }
+      void output() {
+        cout<< "The sum is "<<num1<<" and "<<num2<<" is "<<sum<< endl;
+      }
+};
+      int main(){
+        Multiplication mul;
+        mul.input();
+        mul.calculator();
+        mul.output();
+        return 0;
+      }
