@@ -2,7 +2,7 @@
 using namespace std;
 class Multiplication
 { public:
-      int num1,num2,sum;
+      int num1,num2,res;
       public:
       void input()
       {
@@ -10,10 +10,10 @@ class Multiplication
           cin>>num1>>num2;
       }
       void calculator() {
-        sum = num1*num2;
+        res = num1*num2;
       }
       void output() {
-        cout<< "The sum is "<<num1<<" and "<<num2<<" is "<<sum<< endl;
+        cout<< "The sum is "<<num1<<" and "<<num2<<" is "<<res<< endl;
       }
 };
       int main(){
