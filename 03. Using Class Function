@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+class employee
+{ public:
+int empid;
+    public:
+void emp_detail()
+{
+empid=100;
+string empname= "Prateek";
+float salary= 10000.0;
+  cout<<"empid is " << empid << " empname is " << empname << " salary is " << salary ; }
+};
+int main() {
+employee e;
+e.emp_detail();
+return 0;
+}
